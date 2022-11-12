@@ -1,0 +1,183 @@
+/*deixa o comportamento da barra de rolagem mais suave*/
+html{
+	scroll-behavior: smooth;	
+}
+/*muda o fonte do documento inteiro e remove a margem padrão da tag body*/
+body{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 	
+	margin:0;
+}
+/*define todos os divs que tenham a palavra secao no id fiquem do tamanho da tela*/
+div[id*='secao']{
+	height:100%;
+	width:100%;
+}
+/*define que todo h2 das secaoes tenha um espaçamento no topo do tamanho do cabeçalho, caso contrário o título ficaria atras do cabeçalho*/
+div[id*='secao'] h2{	
+	padding-top:100px;
+}
+/* define todas as tags p com alinhamento justificado e cria um padding na direita e  esquerda */
+p{
+	text-align:justify;
+	padding:0px 10px;
+}
+/*cabeçalho com position fixed para ser acessivel por todo o documento*/
+#cabecalho{
+	background:#7C8DB3;
+	width:100%;
+	height:130px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-image: url("wallpapers/background.png");
+	text-align: center;
+}
+/* define o tamanho e cor da fonte do título do cabeçalho */
+#cabecalho h1{
+	display:inline-block;
+	color:white;
+	font-size:30px;
+}
+
+/* define o tamanho do botão hamburguer posicionado a esquerda e invisível */
+#hamburguer{
+	float:left;
+	display:none;
+}
+
+/* define o tamanho da imagem dos icones */
+#icone{
+	width:30px;
+}
+
+
+
+/* ajusta os li do menu para ficarem em linha e com um espaçamento entre si*/
+
+#menu li{
+	list-style:none;
+	display: inline-block;
+}
+
+/* define o estilo dos links do menu */
+#menu a:link{
+	color:#FFE2A8;
+	font-weight:bold;
+	text-decoration:none;
+	border:solid 3px #5D719E;
+	background:#5D719E;
+}
+#menu a:visited{
+	color:#FFE2A8;
+	border:solid 3px #5D719E;
+}
+#menu a:hover{
+	color:#FFE2A8;	
+	background:#A1AECB;
+	border:solid 3px #A1AECB;
+}
+#menu a:active{
+	color:#FFE2A8;	
+}
+
+
+
+/* define o estilo da seção 1*/
+#secao1{
+	background:#D18AB2;
+}
+/* define o estilo do título da seção 1*/
+#secao1 h2{
+	background:#BE6698;
+	text-align:center;
+}
+
+/* define o estilo da seção 2*/
+#secao2{
+	background:#FFE2A8;
+}
+/* define o estilo do título da seção 2*/
+#secao2 h2{
+	background:#ECC880;
+	text-align:center;
+}
+
+/* define o estilo da seção 3*/
+#secao3{
+	background:#D4F09E;
+}
+/* define o estilo do título da seção 3*/
+#secao3 h2{
+	background:#BBDD77;
+	text-align:center;
+}
+
+/* define o estilo da seção 4*/
+#secao4{
+	background:#C5CDE0;
+}
+/* define o estilo do título da seção 4*/
+#secao4 h2{
+	background:#A1A3CB;
+	text-align:center;
+}
+
+/* define o estilo da seção 5*/
+#secao5{
+	background:#D18AB2;
+}
+/* define o estilo do título da seção 5*/
+#secao5 h2{
+	background:#BE6698;
+	text-align:center;
+}
+
+/* define o estilo da seção 6*/
+#secao6{
+	background:#FFE2A8;
+}
+/* define o estilo do título da seção 6*/
+#secao6 h2{
+	background:#ECC880;
+	text-align:center;
+}
+
+/* define o estilo da seção 7*/
+#secao7{
+	background:#D4F09E;
+}
+/* define o estilo do título da seção 7*/
+#secao7 h2{
+	background:#BBDD77;
+	text-align:center;
+}
+
+/* define o estilo da seção 8*/
+#secao8{
+	background:#C5CDE0;
+}
+/* define o estilo do título da seção 8*/
+#secao8 h2{
+	background:#A1A3CB;
+	text-align:center;
+}
+
+/* define o estilo da seção 9*/
+#secao9{
+	background:#D18AB2;
+}
+/* define o estilo do título da seção 9*/
+#secao9 h2{
+	background:#BE6698;
+	text-align:center;
+}
+
+/* em telas de até 600px de largura o menu desaparece e aparece o botão hamburguer */
+@media only screen and (max-width: 600px) {
+	#menu{
+		display:none;
+	}
+	#hamburguer{
+		display:block;
+	}
+}
