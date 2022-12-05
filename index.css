@@ -1,0 +1,264 @@
+html{
+	scroll-behavior: smooth;	
+}
+
+body{
+	font-family: 'Tw Cen MT', Verdana, Geneva, Tahoma, sans-serif; 	
+	margin:0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#cabecalho{
+    background-image: url("./planos/padrao-pt.png");
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    border-bottom: 5px solid white;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#logo-site{
+    display: inline-block;
+    height: 30px;
+}
+
+#logo-site img{
+    height: 100%;
+}
+
+#links-pts{
+    float: right;
+    padding-right: 23px;
+}
+
+#links-pts img{
+    height:35px;
+    width:35px;
+}
+
+#links-pts a{
+    text-decoration: none;
+}
+
+div[id*='secao']{
+    height: 100%;
+}
+
+div[id*='texto']{	
+	width: 45%;
+    height:auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    text-align: center;
+    display: block;
+    padding: 1%;
+    font-size: 24px;
+}
+
+#secaoinicial{
+    background-image:url("./planos/jojos.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#secaoinicialintro{
+    color: white;
+    font-size: 28px;
+    background-image:url("./planos/padrao-pt.png");
+    text-align: center;
+}
+
+#secaoinicialintro img{
+    height:70px;
+}
+
+#secaopt1{
+    background-color: #50D58A;
+    padding-left: 3%;
+    float:left;
+}
+
+#secaopt1 #capa{
+    height: 100%;
+    float: right;
+}
+
+#secaopt1 #texto{
+    float: left;
+}
+
+#secaopt1 img{
+    height: 48px;
+}
+
+#secaopt2{
+    background-color: #78467B;
+    padding-right: 3%;
+    float:right;
+}
+
+#secaopt2 #capa{
+    height: 100%;
+    float: left;
+}
+
+#secaopt2 #titulo{
+    float: right;
+}
+
+#secaopt2 #texto{
+    float: right;
+}
+
+#secaopt2 img{
+    height: 64px;
+}
+
+#secaopt3{
+    background-color: #FDF41F;
+    padding-left: 3%;
+    float:left;
+}
+
+#secaopt3 #capa{
+    height: 100%;
+    float: right;
+}
+
+#secaopt3 #texto{
+    float: left;
+}
+
+#secaopt3 img{
+    height: 48px;
+}
+
+#secaopt4{
+    background-color: #EC704B;
+    padding-right: 3%;
+    float:right;
+}
+
+#secaopt4 #capa{
+    height: 100%;
+    float: left;
+}
+
+#secaopt4 #titulo{
+    float: right;
+}
+
+#secaopt4 #texto{
+    float: right;
+}
+
+#secaopt4 img{
+    height: 48px;
+}
+
+#secaopt5{
+    background-color: #048FC2;
+    padding-left: 3%;
+    float:left;
+}
+
+#secaopt5 #capa{
+    height: 100%;
+    float: right;
+}
+
+#secaopt5 #texto{
+    float: left;
+}
+
+#secaopt5 img{
+    height: 48px;
+}
+
+#secaopt6{
+    background-color: #B02587;
+    padding-right: 3%;
+    float:right;
+}
+
+#secaopt6 #capa{
+    height: 100%;
+    float: left;
+}
+
+#secaopt6 #titulo{
+    float: right;
+}
+
+#secaopt6 #texto{
+    float: right;
+}
+
+#secaopt6 img{
+    height: 48px;
+}
+
+#secaopt7{
+    background-color: #F25732;
+    padding-left: 3%;
+    float:left;
+}
+
+#secaopt7 #capa{
+    height: 100%;
+    float: right;
+}
+
+#secaopt7 #texto{
+    float: left;
+}
+
+#secaopt7 img{
+    height: 48px;
+}
+
+#secaopt8{
+    background-color: #E3BE12;
+    padding-right: 3%;
+    float:right;
+}
+
+#secaopt8 #capa{
+    height: 100%;
+    float: left;
+}
+
+#secaopt8 #titulo{
+    float: right;
+}
+
+#secaopt8 #texto{
+    float: right;
+}
+
+#secaopt8 img{
+    height: 48px;
+}
+
+#secaolinks{
+    color: white;
+    font-size: 28px;
+    background-image:url("./planos/padrao-pt.png");
+    text-align: center;
+}
+
+#secaolinks img{
+    height:70px;
+}
