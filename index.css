@@ -259,6 +259,21 @@ div[id*='texto']{
     text-align: center;
 }
 
-#secaolinks img{
-    height:70px;
+#secaolinks #links img{
+    height: 70px;
+}
+
+#secaolinks #jojowiki img{
+    height: 50px;
+}
+
+#secaolinks table{
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#secaolinks input{
+    font-size:22px;
+    font-family: 'Tw Cen MT', Verdana, Geneva, Tahoma, sans-serif; 
 }
