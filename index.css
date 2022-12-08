@@ -23,10 +23,14 @@ html,body
     width: 100%;
     display: block;
     position: absolute;
-    border-bottom: 5px solid white;
+    border-bottom: 4px solid white;
     padding: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+#cabecalho #sitealt{
+    display: none;
 }
 
 #logo-site{
@@ -67,10 +71,14 @@ div[id*='texto']{
     font-size: 24px;
 }
 
+#secaoinicial img{
+    width: 100%;
+}
+
 #secaoinicial{
-    background-image:url("./planos/jojos.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image:url("./planos/padrao-pt.png");
+    background-color: black;
+    height: fit-content;
 }
 
 #secaoinicialintro{
@@ -81,7 +89,7 @@ div[id*='texto']{
 }
 
 #secaoinicialintro img{
-    height:70px;
+    height:60px;
 }
 
 #secaopt1{
@@ -276,4 +284,130 @@ div[id*='texto']{
 #secaolinks input{
     font-size:22px;
     font-family: 'Tw Cen MT', Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+@media only screen and (max-width: 850px) {
+
+    #cabecalho #logo-site #site{
+        display: none;
+    }
+
+    #cabecalho #logo-site #sitealt{
+        display: inline;
+    }
+
+    #secaoinicial{
+        padding-top: 45px;
+    }
+
+    #links-pts img{
+        height:35px;
+        width:35px;
+    }
+
+    div[id*='secao']{
+        height:fit-content;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    #secaoinicialintro{
+        font-size: 24px;
+        padding-bottom: 25px;
+    }
+
+    #secaoinicialintro img{
+        height:40px;
+    }
+
+    div[id*='secaopt']{
+        border-bottom: 25px solid rgba(0, 0, 0, 0);
+    }
+
+    div[id*='secaopt'] #titulo{
+        height: 44px;
+        float:inline-start;
+        border-top: 25px solid rgba(0, 0, 0, 0);
+        border-bottom: 25px solid rgba(0, 0, 0, 0);
+    }
+
+    #secaopt2 #titulo{
+        height: 54px;
+    }
+
+    div[id*='secaopt'] br{
+        display: none;
+    }
+
+    div[id*='texto']{	
+        width: 92%;
+        font-size: 22px;
+    }
+
+    #secaolinks{
+        font-size: 16px;
+        text-align: center;
+        border-bottom: 45px solid rgba(0, 0, 0, 0);
+    }
+
+    #secaolinks #links{
+        height: 36px;
+    }
+
+    #secaolinks img{
+        height: 65px;
+    }
+
+    #secaolinks table{
+        width: 100%;
+    }
+
+    #secaolinks input{
+        font-size:16px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    #secaoinicialintro img{
+        height: 24px;
+    }
+
+    #secaoincialintro{
+        font-size:20px;
+    }
+
+    div[id*='secaopt'] #titulo{
+        height: 24px;
+    }
+
+    #secaopt2 #titulo{
+        height: 34px;
+    }
+
+    div[id*='texto']{	
+        width: 92%;
+        font-size: 18px;
+    }
+
+    #secaolinks{
+        font-size: 16px;
+        text-align: center;
+        border-bottom: 45px solid rgba(0, 0, 0, 0);
+    }
+
+    #secaolinks #links{
+        height: 30px;
+    }
+
+    #secaolinks img{
+        height: 45px;
+    }
+
+    #secaolinks input{
+        font-size:16px;
+    }
+
 }

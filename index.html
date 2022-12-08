@@ -9,7 +9,10 @@
     <body>
         <div id="cabecalho">
             <span id="logo-site">
-                <a href="#secaoinicial"> <img src="./titles/site.png"> </a>
+                <a href="#secaoinicial">
+                    <img id="site" src="./titles/site.png">
+                    <img id="sitealt" src="./titles/site-jjba.png">
+                </a>
             </span>
             <div id="links-pts">
                 <span>
@@ -55,7 +58,9 @@
             </div>
         </div>
 
-        <div id="secaoinicial"></div>
+        <div id="secaoinicial">
+            <img src="./planos/jojos.png">
+        </div>
 
         <div id="secaoinicialintro"> <br> <br> <br>
             <img src="./titles/site.png"> <br> <br> <br> 
@@ -155,21 +160,16 @@
         <div id="secaofinal">
             <img src="./titles/links.png" height="1px">
             <div id="secaolinks"> <br> <br> <br>
-                <img id="#links" src="./titles/links.png"> <br> <br> <br>
+                <img id="links" src="./titles/links.png"> <br> <br> <br>
                 <table>
                     <tr>
                         <td> <a href="https://jojowiki.com/" target="_blank"> <img src="./logos/jojo-wiki.png" height="150px"/> </a> </td>
                         <td> <a href="https://www.crunchyroll.com/pt-br/series/GYP8DP1MY/jojos-bizarre-adventure" target="_blank"> <img src="./logos/crunchyroll.png" height="150px"/> </a> </td>
-
                         <td> <a href="https://www.netflix.com/br/title/80179831" target="_blank"> <img src="./logos/netflix.png" height="100px"/> </a> </td>
-<<<<<<< Updated upstream
-                        <td> <a href="davidproduction.jp/index.html" target="_blank"> <img src="./logos/david-pro.png" height="100px"/> </a> </td>
-=======
                         <td> <a href="https://davidproduction.jp/index.html" target="_blank"> <img src="./logos/david-pro.png" height="100px"/> </a> </td>
->>>>>>> Stashed changes
                     </tr>
-                </table> <br> <br>
-                Newsletter! <br> <br>
+                </table> <br>
+                <h3> Newsletter! </h3>
                 <form method="post" onSubmit="return verifEmail(document.getElementById('txtEmail').value);">
                     Inscreva-se agora na nossa newsletter e receba as novidades sobre JoJo em primeira mão! <br> <br>
                     E-mail: <input type='text' name='txtEmail' id='txtEmail' placeholder='meuemail@provedor.com' size="30">
