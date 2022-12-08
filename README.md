@@ -5,5 +5,3 @@
   Não fui capaz de deixar esse projeto de uma maneira satisfatória antes do prazo por falta de habilidade e tempo, então não prossegui com ele. Contudo, depois de realizar as provas finais do semestre e ficar com mais tempo, além de melhorar minhas habilidades nesse meio-tempo, resolvi tentar de novo.
  
   Realizar esse projeto foi uma experiência muito positiva, e eu estou mais satisfeito com o site e comigo mesmo, embora não seja um fã das "inconsistências" que as linguagens HTML e CSS trazem consigo, não posso dizer que não gostei do que elas conseguem realizar com tamanha simplicidade de uso.
- 
-  Ainda há coisas que eu quero mudar e melhorar nesse site, mas vou deixá-las anotadas para outra hora, quando minhas habilidades de web design estiverem mais aprimoradas.
